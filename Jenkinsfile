@@ -3,5 +3,5 @@ node {
   echo "Starting t1"
   checkout scm
   stage 'Stage Build'
-  echo "Done t2"
+  echo "Done t1"
 }
