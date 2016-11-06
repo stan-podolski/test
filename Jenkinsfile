@@ -1,7 +1,7 @@
 node {
   stage 'Stage Checkout'
-  echo "Starting."
+  echo "Starting t1"
   checkout scm
   stage 'Stage Build'
-  echo "Done."
+  echo "Done t2"
 }
