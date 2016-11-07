@@ -1,4 +1,5 @@
+@Library('test') import static org.foo.Util.*
 node {
-  checkout scm
-  jpipeline(', from test!')
+  a=test 'hi '
+  echo 'a'
 }
