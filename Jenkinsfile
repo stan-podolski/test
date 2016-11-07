@@ -1,4 +1,4 @@
-@Library('test') import static org.foo.Util.*
+@Library('test') import static org.foo.jpipeline.*
 node {
   a=test 'hi '
   echo 'a'
