@@ -1,3 +1,3 @@
 node {
-  jpipeline{", from test!"}
+  jpipeline(", from test!")
 }
