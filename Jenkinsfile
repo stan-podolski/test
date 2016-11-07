@@ -1,4 +1,4 @@
-@Library('test') import static foo.bar.*
+@Library('test')
 node {
   jpipeline(", from test!")
 }
