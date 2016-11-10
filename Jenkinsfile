@@ -1,9 +1,9 @@
 jpipeline('test')
 node{
-def utils = new foo.bar.Jpipe()
-echo abc()
+  echo abc()
 }
 
 def abc(){
-return utils.test('hiiii ');
+  def utils = new foo.bar.Jpipe()
+  return utils.test('hiiii ');
 }
