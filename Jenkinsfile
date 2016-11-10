@@ -1,4 +1,5 @@
 jpipeline('test')
 
 def utils = new foo.bar.Jpipe()
-utils.test('hiiii ');
+def x = utils.test('hiiii ');
+sh "echo ${x}"
